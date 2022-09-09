@@ -1,3 +1,7 @@
+##~~~~~~~~~~~~~~~~~~~~~~~~~##
+# An exploration into lists #
+##~~~~~~~~~~~~~~~~~~~~~~~~~##
+
 #list
 inventory = ["sword", "shield", "armour", "healing potion", "happy meal"]
 print(inventory,'\n')
