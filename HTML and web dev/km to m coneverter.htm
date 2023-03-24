@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            function convert_km() {
+                km = document.forms["myForm"]["km"].value;
+                miles = km * 0.621371;
+                document.getElementById("answer").innerHTML = km + " km is " + miles + " miles.";
+            }
+                
+            function convert_miles() {
+                miles = document.forms["myForm"]["miles"].value;
+                km = miles / 0.621371;
+                document.getElementById("ans2").innerHTML = miles + " miles is " + km + "km.";
+            }
+        </script>
+
+
+    </head>
+    <body>
+        <form name="myForm">
+            Enter km
+            <input type = "input" id="km" name="km">
+            <br>
+            <br>
+            <input type="button" value="Convert to miles" onclick="convert_km()">
+            <br>
+            <br>
+            <br>
+            Enter miles
+            <input type = "input" id="miles" name="miles">
+            <br>
+            <br>
+            <input type="button" value="Convert to km" onclick="convert_miles()">
+
+        </form>
+
+
+        <p id="answer"></p>
+
+        <p id="ans2"></p>
+
+    </body>
+</html>
