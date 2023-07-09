@@ -118,8 +118,8 @@ def game(wins,losses):
 playing = True
 while playing == True:
     score = game(wins,losses)
-    print("Games won: ",score[0])
-    print("Games lost: ",score[1])
+    print("Games won: ",wins)
+    print("Games lost: ",losses)
     rply = input("Would you like to play again? [Y/N]")
     if rply.upper() == "N":
         playing = False

@@ -1,0 +1,15 @@
+
+body{
+    background-color: rgb(10, 48, 26);
+    color: rgb(230, 203, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fish{
+    text-align: center;
+    color: lightgreen;
+}
+
+.triggered{
+    color: rgb(230, 87, 87);
+    background-color: rgb(199, 182, 108);
+}
